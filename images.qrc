@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/08kuang_4.png</file>
+        <file>images/08kuang_3.png</file>
+        <file>images/08kuang_2.png</file>
+        <file>images/08kuang_1.png</file>
+        <file>images/07huan_4.png</file>
+        <file>images/07huan_3.png</file>
+        <file>images/07huan_2.png</file>
+        <file>images/07huan_1.png</file>
+        <file>images/06about_2.png</file>
+        <file>images/06about_1.png</file>
+        <file>images/05setup_2.png</file>
+        <file>images/05setup_1.png</file>
+        <file>images/04report_2.png</file>
+        <file>images/04report_1.png</file>
+        <file>images/03alarm_2.png</file>
+        <file>images/03alarm_1.png</file>
+        <file>images/02device_2.png</file>
+        <file>images/02device_1.png</file>
+        <file>images/01overview_2.png</file>
+        <file>images/01overview_1.png</file>
+        <file>images/00title.png</file>
+        <file>images/00title_bar.png</file>
+        <file>images/00logo.png</file>
+        <file>images/00content.png</file>
+        <file>images/00background.png</file>
+        <file>images/yonghu.png</file>
+        <file>images/yali.png</file>
+        <file>images/wendu.png</file>
+        <file>images/gaojing.png</file>
+        <file>images/fawei.png</file>
+        <file>images/03server_2.png</file>
+        <file>images/03server_1.png</file>
+        <file>images/11kuang_666-277.png</file>
+        <file>images/11kuang_666-187.png</file>
+        <file>images/11kuang_566-242.png</file>
+        <file>images/11kuang_462-32.png</file>
+        <file>images/11kuang_351-242.png</file>
+        <file>images/11kuang_351-228.png</file>
+        <file>images/11kuang_282-174.png</file>
+        <file>images/11kuang_265-482.png</file>
+    </qresource>
+</RCC>
