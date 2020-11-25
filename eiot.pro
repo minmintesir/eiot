@@ -19,9 +19,9 @@
 #* @Copyright© @MacianYuan Anhui Xinjie Technology Co.,Ltd.  2010-2020  All rights reserved.
 #******************************************************************************************/
 
-QT       += core gui network sql xml
+QT       += core gui network sql xml widgets
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+QMAKE_CXXFLAGS += -std=c++11 -O0
 
 TARGET = eiot
 TEMPLATE = app
@@ -63,4 +63,5 @@ LIBS += -llog4cplus -lboost_system
 RESOURCES += \
     images.qrc
 
-DISTFILES +=
+DISTFILES += \
+    README

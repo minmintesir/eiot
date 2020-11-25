@@ -38,7 +38,7 @@
 
 int main(int argc, char *argv[])
 {   //qtvirtualkeyboard
-    //Qt5SoftKeyboard
+    //Qt5SoftKeyboard aaaa
     qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
     QApplication a(argc, argv);
 

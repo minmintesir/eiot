@@ -334,7 +334,7 @@ border-color: rgba(255, 255, 255, 0);</string>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="home_page">
      <property name="styleSheet">
@@ -1110,16 +1110,6 @@ border-color: rgba(255, 255, 255, 0);</string>
          </rect>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit">
-        <property name="geometry">
-         <rect>
-          <x>140</x>
-          <y>50</y>
-          <width>161</width>
-          <height>27</height>
-         </rect>
-        </property>
-       </widget>
        <widget class="QLabel" name="label_47">
         <property name="geometry">
          <rect>
@@ -1211,6 +1201,26 @@ border-color: rgba(255, 255, 255, 0);</string>
           <height>27</height>
          </rect>
         </property>
+       </widget>
+       <widget class="QWidget" name="widget_8" native="true">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>50</y>
+          <width>241</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>0</y>
+           <width>161</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
        </widget>
       </widget>
      </widget>
