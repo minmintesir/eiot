@@ -40,9 +40,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
+    mainservice.cpp \
         mainwindow.cpp \
 
 HEADERS += \
+    mainservice.h \
         mainwindow.h \
 
 
@@ -54,11 +56,13 @@ include(./deviceinfo/deviceinfo.pri)
 include(./qextserialport/src/qextserialport.pri)
 include(./sqlworker/sqlworker.pri)
 include(./servicelogic/servicelogic.pri)
+include(./interfaceapp/interfaceapp.pri)
 
 INCLUDEPATH += $$PWD/include
+DEPENDPATH  += $$PWD/include
 
 LIBS += -L$$PWD/lib
-LIBS += -llog4cplus -lboost_system
+LIBS += -llog4cplus -lboost_system -lQt5Mqtt
 
 RESOURCES += \
     images.qrc

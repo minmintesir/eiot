@@ -1,6 +1,6 @@
 /******************************************************************************************
 *-----First Created. time: 16-November-2020	4:35  P.m.
-* @File name    :main.cpp
+* @File name    :version.cpp
 * @Platform     :imx6ull * openwrt19.07.2 * linux 4.1.15 * Qt5.5.1 * arm-openwrt-linux-gnueabi-
 * @Author       :MacianYuan
 * @E-mail       :macian@foxmail.com
@@ -23,7 +23,10 @@
 #define ORG_NAME            "xinjie"
 
 #define EIOT_CONFIG         "/storage/conf/eiot.conf"
-#define CLIENT_CONFIG	    "/storage/conf/controller.conf"
+#define ADAPTER_CONFIG	    "/storage/conf/adapter.conf"
+#define SERVER_CONFIG	    "/storage/conf/server.conf"
+
+#define EIOT_LOG            "/storage/log/eiot.log"
 #define SSL_CERT            "/storage/conf/sslcert.pem"
 #define NET_CONFIG          "/storage/conf/net.conf"
 #define NETTYPE_CONFIG      "/storage/conf/nettype.conf"

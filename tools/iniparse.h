@@ -36,7 +36,7 @@ public:
 	long GetLong(std::string path, long def = 0);
 	std::string GetString(std::string path, std::string def = "");
 
-	bool Set(std::string path, bool value);
+    bool Set(std::string path, bool valzue);
 	bool Set(std::string path, long value);
 	bool Set(std::string path, int value);
 	bool Set(std::string path, const std::string& value);

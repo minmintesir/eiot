@@ -1,26 +1,28 @@
-﻿///******************************************************************************************
-//*-----First Created. time: 16-November-2020	4:35  P.m.
-//* @File name    :main.cpp
-//* @Platform     :imx6ull * openwrt19.07.2 * linux 4.1.15 * Qt5.5.1 * arm-openwrt-linux-gnueabi-
-//* @Author       :MacianYuan
-//* @E-mail       :macian@foxmail.com
-//* @Project      :边缘网关控制器（楼宇供暖控制系统）
-//*******************************************************************************************
-//* @Description  :
-//* @Attention    :
-//* @Log          :
-//*****************16-November-2020(MacianYuan):
-//*****************
-//* @Copyright© @MacianYuan Anhui Xinjie Technology Co.,Ltd.  2010-2020  All rights reserved.
-//******************************************************************************************/
+﻿/******************************************************************************************
+*-----First Created. time: 16-November-2020	4:35  P.m.
+* @File name    :main.cpp
+* @Platform     :imx6ull * openwrt19.07.2 * linux 4.1.15 * Qt5.5.1 * arm-openwrt-linux-gnueabi-
+* @Author       :MacianYuan
+* @E-mail       :macian@foxmail.com
+* @Project      :边缘网关控制器（楼宇供暖控制系统）
+*******************************************************************************************
+* @Description  :
+* @Attention    :
+* @Log          :
+*****************16-November-2020(MacianYuan):
+*****************
+* @Copyright© @MacianYuan Anhui Xinjie Technology Co.,Ltd.  2010-2020  All rights reserved.
+******************************************************************************************/
 
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <fcntl.h>
-//#include <sys/soundcard.h>
-//#include <linux/watchdog.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/soundcard.h>
+#include <linux/watchdog.h>
 
-//#include "imx6ull.h"
+#include "imx6ull.h"
+
+
 
 //extern sysfs_write(const char* fname, const char* dat, int len);
 ////#define BACKLIGHT_NAME_VALUE "/sys/class/pwm/ehrpwm.1\:0/duty_percent"

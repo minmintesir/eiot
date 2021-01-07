@@ -24,51 +24,23 @@
 #include "sqlworker/sqlworker.h"
 #include <tools/iniparse.h>
 #include <deviceinfo/version.h>
+#include "mqttservice.h"
+
+class MqttServiceGlobal : public QObject
+{
+public:
+    MqttServiceGlobal();
+    ~MqttServiceGlobal();
+    MqttService *mqttservice;
+    QMqttClient *mqtt_client;
+    void mqttserviceglobal_init();
+    void mqttserviceglobal_subscribeTopic();
+    void mqttserviceglobal_publishMessage(QString _topicname,QByteArray _message);
 
 
-//enum UserRightType {
-//    SQL_CONTROL,
-//    OSLA_CONTROL,
-//    CLIENT_CONTROL
-//};
+private:
 
 
-
-//struct Panel_Message {
-//  char* panelsn;
-//  int userid;
-//  int roomtemperature;
-//  int settemperature;
-//  int setmode;
-//};
-
-
-
-//struct Valve_Message {
-//  char* heatmeteraddr;
-//  int userid;
-//  int inletflowtemperature;
-//  int outletflowtemperature;
-//  int temperaturediff;
-//  int currentflow;
-//  int currentpower;
-//  int totalflowvolume;
-//};
-
-//class GlobalData
-//{
-//public:
-
-
-//private:
-//    GlobalData();
-//    ~GlobalData();
-
-//private:
-//    static std::mutex m_Mutex;
-//    static GlobalData* m_Instance;
-////    std::map<ControlDataType, QObject*> m_GlobalObject;
-
-//};
+};
 
 #endif //GLOBALDATA_H

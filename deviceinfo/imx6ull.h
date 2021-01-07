@@ -1,37 +1,28 @@
-///******************************************************************************************
-//*-----First Created. time: 16-November-2020	4:35  P.m.
-//* @File name    :main.cpp
-//* @Platform     :imx6ull * openwrt19.07.2 * linux 4.1.15 * Qt5.5.1 * arm-openwrt-linux-gnueabi-
-//* @Author       :MacianYuan
-//* @E-mail       :macian@foxmail.com
-//* @Project      :边缘网关控制器（楼宇供暖控制系统）
-//*******************************************************************************************
-//* @Description  :
-//* @Attention    :
-//* @Log          :
-//*****************16-November-2020(MacianYuan):
-//*****************
-//* @Copyright© @MacianYuan Anhui Xinjie Technology Co.,Ltd.  2010-2020  All rights reserved.
-//******************************************************************************************/
+/******************************************************************************************
+*-----First Created. time: 16-November-2020	4:35  P.m.
+* @File name    :main.cpp
+* @Platform     :imx6ull * openwrt19.07.2 * linux 4.1.15 * Qt5.5.1 * arm-openwrt-linux-gnueabi-
+* @Author       :MacianYuan
+* @E-mail       :macian@foxmail.com
+* @Project      :边缘网关控制器（楼宇供暖控制系统）
+*******************************************************************************************
+* @Description  :
+* @Attention    :
+* @Log          :
+*****************16-November-2020(MacianYuan):
+*****************
+* @Copyright© @MacianYuan Anhui Xinjie Technology Co.,Ltd.  2010-2020  All rights reserved.
+******************************************************************************************/
 
-//#ifndef IMX6ULL_H
-//#define IMX6ULL_H
+#ifndef IMX6ULL_H
+#define IMX6ULL_H
 
-//#ifdef __cplusplus
-//extern "C" {
-//#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 
-//#define LED1 0
-//#define LED2 1
-//#define LED3 2
-//#define LED4 3
-//#define COM1_RTS 4
-//#define SWITCH_LEVEL 5
-//#define SWITCH_TRIGGER 6
-//#define WIFI_ACTIVE 7
 
-//#define TQ2440_SERIAL1      "/dev/ttySAC1"
 //#define TQ2440_SERIAL2      "/dev/ttySAC2"
 //#define TQ2440_GPIO         "/dev/tq2440_gpio"
 //#define TQ2440_SPI          "/dev/spidev1.0"
@@ -40,7 +31,7 @@
 //#define TQ2440_MIXER	    "/dev/mixer"
 //#define TQ2440_WATCHDOG	    "/dev/watchdog"
 
-////#define WATCHDOG_ENABLED    1
+//#define WATCHDOG_ENABLED    1
 //#define WATCHDOG_TIMEOUT    30
 //#define WATCHDOG_INTERVAL   10
 
@@ -77,9 +68,9 @@
 //extern int humidity(float *value); /// 获取湿度
 //extern int needReset(); /// 是否需要恢复出厂设置
 
-//#ifdef __cplusplus
-//}
-//#endif
+#ifdef __cplusplus
+}
+#endif
 
-//#endif // IMX6ULL_H
+#endif // IMX6ULL_H
 

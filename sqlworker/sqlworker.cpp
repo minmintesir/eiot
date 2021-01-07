@@ -15,6 +15,7 @@
 ******************************************************************************************/
 
 #include <time.h>
+#include <QThread>
 #include <QtCore/QtCore>
 #include <QtSql/QtSql>
 #include <tools/log.h>
@@ -24,6 +25,7 @@
 #include "deviceinfo/version.h"
 #include "tools/iniparse.h"
 #include "deviceinfo/globaldata.h"
+
 
 #define likely(x) __builtin_expect((x),1)
 #define unlikely(x) __builtin_expect((x),0)

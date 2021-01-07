@@ -1,6 +1,6 @@
 #ifndef USERSERVICE_H
 #define USERSERVICE_H
-
+//
 #include <QObject>
 
 struct User_Message_  {

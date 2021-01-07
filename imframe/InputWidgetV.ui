@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InputWidgetV</class>
+ <widget class="QWidget" name="InputWidgetV">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>316</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="bth_">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>0</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>_</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btho">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>270</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>o</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthp">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>315</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>p</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthheng">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>135</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btht">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>315</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>t</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthpoint">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>135</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth8">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>90</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthe">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>180</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>e</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthu">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>360</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>u</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthr">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>315</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>r</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth9">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>90</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthy">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>360</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>y</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthi">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>225</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>i</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthq">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>315</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>q</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth6">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>45</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthw">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>360</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>w</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth5">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>45</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth0">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>135</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>45</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bths">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>315</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>s</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthg">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>225</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>g</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>0</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthh">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>225</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>h</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthdou">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>405</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>,</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthd">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>180</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>d</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btha">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>180</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>a</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthj">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>225</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>j</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthf">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>225</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>f</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthk">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>270</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>k</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthz">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>405</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>z</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthx">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>360</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>x</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthc">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>180</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>c</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthv">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>360</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>v</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthn">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>270</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>n</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthm">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>270</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>m</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthda">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>405</y>
+     <width>90</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>shift</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthBackspace">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>405</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>DEL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthb">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>180</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::TabFocus</enum>
+   </property>
+   <property name="text">
+    <string>b</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth2">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>0</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthl">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>270</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>l</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_1">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>45</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_2">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>90</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>@</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_3">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>135</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_4">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>180</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>$</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_5">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>225</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>%</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_6">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>270</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>^</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_7">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>45</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>*</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_8">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>315</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_9">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>360</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_10">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>315</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>{</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_11">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>180</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_12">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>360</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_13">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>135</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_14">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>90</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_15">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>90</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_16">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>135</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_17">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>0</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>/</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_18">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthdou_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>270</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>]</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bthdou_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>225</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>[</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth_1">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>0</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>|</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>0</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>\</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>45</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth_4">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>45</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>'</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth_5">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>135</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth_6">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>405</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>~</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bth_7">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>405</y>
+     <width>45</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/images/btn_yu.png);</string>
+   </property>
+   <property name="text">
+    <string>&amp;&amp;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

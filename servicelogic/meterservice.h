@@ -1,6 +1,6 @@
 #ifndef METERSERVICE_H
 #define METERSERVICE_H
-
+//
 #include <QObject>
 
 

@@ -92,3 +92,19 @@ char ConvertHexChar(char ch) {
     }
     return (-1);
 }
+
+
+unsigned int crc16table(QByteArray bytearray_buf)
+{
+    unsigned char ucCRCHi = 0xFF;
+    unsigned char ucCRCLo = 0xFF;
+    unsigned int usIndex;
+    //unsigned int len = bytearray_buf.size();
+
+    for( int i = 0;i < bytearray_buf.size();i++){
+        usIndex = ucCRCHi ^ bytearray_buf.at(i);
+        ucCRCHi = ucCRCLo ^ auchCRCHi[usIndex];
+        ucCRCLo = auchCRCLo[usIndex];
+    }
+    return ((unsigned int)ucCRCHi << 8 | ucCRCLo);
+}

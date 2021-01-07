@@ -112,8 +112,8 @@ MainWindow::MainWindow(QWidget *parent) :
    "background-color:rgb(13,43,86);}"
    );
 
-
 }
+
 //初始化 按键组
 void MainWindow::initButtonToGroup()
 {
@@ -139,3 +139,4 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+

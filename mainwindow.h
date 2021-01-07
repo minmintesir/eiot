@@ -19,6 +19,11 @@
 
 #include <QMainWindow>
 #include <QAbstractButton>
+#include "tools/log.h"
+#include "tools/iniparse.h"
+#include "deviceinfo/version.h"
+#include "tools/macian_json.h"
+
 
 namespace Ui {
 class MainWindow;
@@ -35,7 +40,6 @@ public:
 private:
     Ui::MainWindow *ui;
     void initButtonToGroup();
-
 public slots:
     void slot_buttonClicked(QAbstractButton *btn);
 

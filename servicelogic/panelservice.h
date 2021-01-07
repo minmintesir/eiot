@@ -1,6 +1,6 @@
 #ifndef PANELSERVICE_H
 #define PANELSERVICE_H
-
+//
 #include <QObject>
 
 class PanelService : public QObject
